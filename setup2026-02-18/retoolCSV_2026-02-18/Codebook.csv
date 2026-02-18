@@ -1,0 +1,62 @@
+﻿codebook_id,definition,term,assigned_table
+1,"How the project is currently classified according to whether it is actively being worked on, on hold, published, etc.",Status,Projects
+2,A short phrase descriptive of the project that appears with associated objects in tables elsewhere in the user interface,Title,Projects
+3,A more in-depth explanation of the project's objectives,Description,Projects
+28,The source was ground in PBS and diluted by a factor of 10,dilution-.1,Cultures
+29,The source was ground in PBS and diluted by a factor of 100,dilution-.01,Cultures
+30,The source was ground in PBS and diluted by a factor of 1000,dilution-.001,Cultures
+33,"A bit of the source was sampled with an inoculating needle and streaked onto the plate (i.e., to isolate a single colony)",needle (streak),Cultures
+35,The sample was taken from the edge of an existing culture,edge of culture,Cultures
+44,"Potato dextrose agar, a general purpose medium for fungi - does not specify a specific recipe, concentrations may vary",PDA,Media Prep Batches
+46,Media poured into large petri plates,large plate,Media Prep Batches
+47,Media poured into capped vials at an angle for long-term storage,cryogenic vial - slant,Media Prep Batches
+49,"This project is ongoing, with lab activities currently contributing to it",Active,Projects
+50,This project has reached its conclusion but there is not (yet) a publication associated with it,Awaiting Publication,Projects
+51,This project is complete and published,Published,Projects
+52,"This project is not complete or presently ongoing, but will be resumed at a future time",Suspended,Projects
+53,This project has been left incomplete without plans to return to it,Abandoned,Projects
+54,This lab member is actively employed in the Forest Entomology laboratory,Active (Employed),Lab Members
+55,This person is participating in lab activities on a short-term basis,Active (Visiting),Lab Members
+56,This person has been involved in laboratory activities in the past but is no longer present,Inactive,Lab Members
+57,"Extraction was conducted according to this procedure https://www.protocols.io/view/fungal-dna-extraction-from-fungal-plate-n2bvjxxmnlk5/v1, with BSA added",Extract-n-Amp with BSA,Extractions
+84,The slant is currently in the downstairs freezer,Freezer (-80 degrees Celsius),Slants
+85,"The sample has been frozen on a solid slant in 10% glycerol at -80 degrees, prepared as described here (https://www.protocols.io/view/fungi-permanent-storage-ewov144b7vr2/v1)",Frozen in glycerol slant,Slants
+88,The primer with this label is a forward primer,Forward,Primer Stocks
+89,The primer with this label is a reverse primer,Reverse,Primer Stocks
+90,This primer is currently available to use for PCR,Available,Primer Stocks
+91,This primer is no longer available for use in PCR,Unavailable,Primer Stocks
+92,"The shortened identifier for the primer (i.e., ITS4, LROR, etc.)",Acronym,Primer Stocks
+93,The base pair sequence targeted by the primer in question,TargetSequence,Primer Stocks
+94,Whether the primer is a forward or reverse primer,Direction,Primer Stocks
+95,Whether the primer is currently available to use or not,Availability,Primer Stocks
+96,Any additional information about the primer not covered in the other fields,Notes,Primer Stocks
+132,The sampled beetle has been identified as female,Female,Beetles
+135,The beetles were collected as adults,Adult,Beetles
+140,A tree purposefully felled for the purposes of sampling; no longer alive,Felled,Trees
+141,Sampled from the stem of a fallen/felled tree,Trunk,Galleries
+143,"Series of black funnels suspended from rope from tree, with collecting chamber at bottom",Lindgren funnel trap,Traps
+144,"No ethanol, etc. was used in the trap; beetles were collected live from a wetted paper towel",Damp paper towel,Traps
+146,"Lure consisting of 2-methyl-3-buten-2-ol, ipsdienol, and cis-verbenol for Ips typographus",Ips typographus lure,Traps
+149,Used on OSBS and DeLuca trips to group beetles trapped both with Lindgren funnels and at lights,Flying or trapped,Beetles
+151,Media with cycloheximide added,Cyc,Media Prep Batches
+153,Insect is rolled over the surface of the agar,roll,Cultures
+158,https://www.protocols.io/view/running-gels-electrophoresis-gel-procedure-8epv5zzp4v1b/v1,Gel Electrophoresis Imaging,Processes
+170,"Dead tree, cut, only stump remaining (as a plant health status indicator)",Stump,Trees
+174,"4 min at 96 degrees Celsius, (30s at 94 degrees Celsius, 40s at 55 degrees Celsius, 1 minute at 72 degrees Celsius) x 38, 5 minutes at 72 degrees Celsius",PCR55,PCRProducts
+176,The sample was submitted premixed with its respective forward primer to Sanger Eurofins for sequencing,Eurofins Sanger Sequencing (Premixed),Sequences
+177,The beetle sampled was male,Male,Beetles
+192,The dissected hindgut of a beetle or other insect,hindgut,Cultures
+193,The dissected head of a beetle or different insect,head,Cultures
+194,The dissected prothorax of a beetle or other insect,prothorax,Cultures
+195,"3 minutes at 94 degrees Celsius, (1 minute at 94 degrees Celsius, 45 seconds at 50 degrees Celsius, 1 minute at 72 degrees Celsius) x 30, hold at 4 degrees Celsius",LSU_AR,PCRProducts
+196,"4 minutes at 96 degrees Celsius,  (30 seconds at 94 degrees Celsius, 45 seconds at 43 degrees Celsius, 1 minute at 72 degrees Celsius) x 34, 72 degrees Celsius for 10 minutes, hold at 10 degrees Celsius",PCR53,PCRProducts
+197,"3 minutes at 95 degrees Celsius, (30 seconds at 95 degrees Celsius, 45 seconds at 57 degrees Celsius, 40 seconds at 72 degrees Celsius) x 35, 8 minutes at 72 degrees Celsius, hold at 10 degrees Celsius",Yin_et_al_57,PCRProducts
+198,"3 minutes at 94 degrees Celsius, (1 minute at 94 degrees Celsius, 1 minute at 55 degrees Celsius, 2 minutes at 72 degrees Celsius) x 30, hold at 10 degrees Celsius",ITS_LESF_AR,PCRProducts
+199,Morphotype from Euplatypus project,M1 - Euplatypus Project (2019),Morphotypes
+200,Morphotype from Euplatypus project,M2  - Euplatypus Project (2019),Morphotypes
+201,Morphotype from Euplatypus project,M3  - Euplatypus Project (2019),Morphotypes
+202,Morphotype from Euplatypus project,M4 - Euplatypus Project (2019),Morphotypes
+203,Morphotype from Euplatypus project,M5 - Euplatypus Project (2019),Morphotypes
+204,Morphotype from Euplatypus project,M6  - Euplatypus Project (2019),Morphotypes
+205,Morphotype from Euplatypus project,M7 - Euplatypus Project (2019),Morphotypes
+206,Morphotype from Euplatypus project,M8 - Euplatypus Project (2019),Morphotypes
