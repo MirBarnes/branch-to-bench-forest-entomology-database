@@ -1,0 +1,2 @@
+This is a collection of .json and .csv files to help set up an independent version of the University of Florida Forest Entomology Lab's Branch-to-Bench database for symbiology sample tracking, using the Retool app-building platform.
+databaseSetUpGuide.docx provides detailed instructions for setting up the database and application using the files in retoolCSV and retoolJSON. MolecularDatabaseUserGuide.pdf provides additional information about using the database once it is up and running.
